@@ -1,17 +1,17 @@
 {
-  "name": "sn-trade-web",
+  "name": "sn-user-web",
   "version": "0.0.1",
   "description": "super engine trade for web",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sorrymeika/sn-trade-web.git"
+    "url": "git+https://github.com/sorrymeika/sn-user-web.git"
   },
   "author": "sunlu",
   "bugs": {
-    "url": "https://github.com/sorrymeika/sn-trade-web/issues"
+    "url": "https://github.com/sorrymeika/sn-user-web/issues"
   },
-  "homepage": "https://github.com/sorrymeika/sn-trade-web#readme",
+  "homepage": "https://github.com/sorrymeika/sn-user-web#readme",
   "devDependencies": {
     "egg-bin": "^4.13.1"
   },
