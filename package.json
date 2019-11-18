@@ -28,7 +28,7 @@
   },
   "scripts": {
     "dev": "node scripts/dev.js && egg-bin dev --port 7006",
-    "start": "node scripts/ln-deps.js && egg-scripts start --port=7006 --daemon --title=egg-sn-user-web",
+    "start": "egg-scripts start --port=7006 --daemon --title=egg-sn-user-web",
     "stop": "egg-scripts stop --title=egg-sn-user-web",
     "test": "echo \"Error: no test specified\" && exit 1"
   }

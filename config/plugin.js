@@ -17,3 +17,8 @@ exports.auth = {
     enable: true,
     package: 'egg-sn-auth',
 };
+
+exports.gateway = {
+    enable: true,
+    package: 'egg-sn-gateway',
+};

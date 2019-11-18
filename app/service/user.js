@@ -3,7 +3,7 @@ const { Service } = require("egg");
 class UserService extends Service {
     async login(account, verifyCode) {
         const { ctx } = this;
-        const res = await this.ctx.authRPC.invoke('auth.loginByVerifyCode', [account, verifyCode, 3]);
+        const res = await this.app.authRPC.invoke('auth.loginByVerifyCode', [account, verifyCode, 3]);
 
         const { success, token, wtk } = res;
         if (success) {
