@@ -1,6 +1,9 @@
 module.exports = app => {
     const { router, controller } = app;
 
+    router.all('/test', controller.user.test);
+
+
     /**
      * 前台接口路由
      */

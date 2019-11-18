@@ -21,6 +21,13 @@ class UserController extends Controller {
         const result = await ctx.service.user.getUserInfo(ctx.accountId);
         ctx.body = result;
     }
+
+    test() {
+        const { ctx } = this;
+        ctx.body = {
+            name: 'hello world!'
+        };
+    }
 }
 
 module.exports = UserController;
